@@ -19,11 +19,8 @@ return product
 end
 
 def modulo(num1, num2)
-answer = num1 / num2
-yes = Integer(answer)
-ups = answer - yes 
-final = ups * num1
-return final
+answer = num1 % num2
+return answer
 end
 
 def square_root(num)
